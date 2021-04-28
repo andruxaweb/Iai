@@ -1,0 +1,23 @@
+.body{
+  color:#333333;
+}
+#popUp{
+    visibility: hidden;
+    font-family:Arial;
+}
+.btn{
+  border: 1px solid black;
+}
+.btn:focus,:active,:hover{
+  outline: none;
+}
+.btn-outline-info{
+  color:#333333;
+}
+.btn-outline-info:hover,:focus,:active{
+  background-color: white;
+  color:#333333;
+}
+.btn-outline-info:hover{
+  color:#333333;
+}

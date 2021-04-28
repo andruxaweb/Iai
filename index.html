@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <div class="body">
+    <!-- <button type="button" name="ShowPopUp" onclick="ShowPopUp()">ShowPopUp</button> -->
+    <button id="buttonShowPopUp" class="btn btn-primary" onclick="showPopUp()">Show popUp</button>
+
+    <div class="bd-example-modal-sm" id="popUp">
+          <!-- <div class="modal-dialog modal-lg"> -->
+          <div class="modal-content">
+            <div class="modal-body">
+            <div id="table" class="row">
+              <div id="leftPart" class="col-lg">
+                <span onclick="changeImage('left')" style="cursor:pointer"><img src="https://img.icons8.com/ios/50/000000/circled-chevron-left.png"/></span>
+                <img id="xboxImage" src='pictures/1-1.jpg' style="width:500px; height:285px; margin: 10% 0;" >
+                <span onclick="changeImage('right')" style="cursor:pointer"><img src="https://img.icons8.com/ios/50/000000/circled-chevron-right.png"/></span>
+              </div>
+              <div id="rightPart" class="col-lg ">
+              </div>
+              </div>
+              <!-- </div> -->
+              </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/mainScript.js"></script>
+  </body>
+</html>
